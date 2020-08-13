@@ -1,0 +1,507 @@
+.container_header{
+	
+	height: 120px;
+	display: block;
+	box-sizing: border-box;
+	background-image: url("../images/pagina/header.png");
+	background-repeat: no-repeat;
+  	background-position: right top;
+}
+.container_header .brand{
+	display: block;
+	height: auto;
+	width: 50%;
+	height: 120px;
+	box-sizing: border-box;
+	float:left;
+	padding-left: 100px;
+
+
+}
+.brand img{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.menu_ingreso{
+	padding-top: 9px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+.menu_ingreso a{
+	color: #434547;
+	transition:all 0.3s ease;
+}
+.menu_ingreso a:hover {
+	background-color: #434547;
+	color: white;
+	border-radius:5%
+}
+
+
+.valores{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+.valores .card-group{
+	margin: auto;
+
+}
+
+#boton_personalizado{
+	text-align: center;
+	margin-top: 10px;
+	
+
+}
+#boton_personalizado p{
+	width: 100%;
+	height:100%;
+	background-color: #fff;
+}
+
+#boton_personalizado a{
+	display: block;
+
+	width: 100%;
+	height: 100%;
+	border:1px solid rgb(33, 37, 41);
+	color: rgb(33, 37, 41);
+	vertical-align: middle;
+	text-decoration: none;
+	line-height: 16px;
+	padding-top: 10px;
+	opacity: 0.5;
+	 transition:all 0.3s ease;
+	box-sizing: border-box;
+	
+}
+#boton_personalizado span{
+	
+	font-size: 20px;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+#boton_personalizado a:hover{
+	color: white;
+	box-sizing: border-box;
+	background-color: gray;
+	border:1px solid rgb(33, 37, 41);
+	border-radius: 10px;
+	opacity: 1;
+	box-sizing: border-box;
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+	 
+
+}
+
+#boton_personalizado a:hover .navbar-nav{
+	color: black;
+}
+
+/*.dropdown:hover .dropdown-menu {display: block;}*/
+
+.mega-menu:hover {
+	color: black;
+}
+.dropdown-menu:hover #navbarDropdown{
+	background: black;
+	border: 1px solid black;
+}
+
+#dropdown-arreglos{
+	border:1px solid black;
+	padding: 20px 40px 30px 40px ;
+	background-color: #e8e8e8;
+}
+
+/*     FOOTER      */
+#pie_personalizado{
+	padding-top: 45px;
+	
+}
+a {
+ color:#5867dd
+}
+.no-padding {
+ padding:0!important
+}
+.go_tops {
+ line-height:40px;
+ cursor:pointer;
+ width:40px;
+ background:#5867dd;
+ color:#fff;
+ position:fixed;
+ -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+ box-shadow:0 4px 4px rgba(0,0,0,.1);
+ -webkit-border-radius:50%;
+ border-radius:50%;
+ right:-webkit-calc((100% - 1140px)/ 2);
+ right:calc((100% - 1140px)/ 2);
+ z-index:111;
+ bottom:80px;
+ text-align:center
+}
+.go_top span {
+ display:inline-block
+}
+.footer-big {
+  /* padding:105px 0 65px 0 */
+}
+.footer-big .footer-widget {
+ margin-bottom:40px
+}
+.footer--light {
+ background:#e7e8ed
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+ color:#898b96
+}
+.footer-menu {
+ /* padding-left:48px; */
+}
+.footer-menu ul li a {
+ font-size:15px;
+ line-height:32px;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.footer-menu ul li a:hover {
+ color:#5867dd
+}
+.footer-menu--1 {
+ width:100%
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px;
+ text-align: center;
+}
+.mini-footer {
+ background:#192027;
+ text-align:center;
+ padding:32px 0
+}
+.mini-footer p {
+ margin:0;
+ line-height:26px;
+ font-size:15px;
+ color:#999
+}
+.mini-footer p a {
+ color:#5867dd
+}
+.mini-footer p a:hover {
+ color:#34bfa3
+}
+.widget-about img {
+ display:block;
+ margin-bottom:30px
+}
+.widget-about p {
+ font-weight:400
+}
+.widget-about .contact-details {
+ margin:30px 0 0 0
+}
+.widget-about .contact-details li {
+ margin-bottom:10px
+}
+.widget-about .contact-details li:last-child {
+ margin-bottom:0
+}
+.widget-about .contact-details li span {
+ padding-right:12px
+}
+.widget-about .contact-details li a {
+ color:#5867dd
+}
+@media (max-width:991px) {
+ .footer-menu {
+  padding-left:0
+ }
+}
+
+.container_footer ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#boton_responsive{
+	color: white;
+	font-size: 35px;
+	padding-bottom: 5px;
+}
+
+
+.plantel_docente{
+	
+	display: block;
+	width: 90%;
+	
+	margin: auto;
+	overflow: auto;
+	padding: 50px 20px;
+	margin-top: 20px;
+	
+}
+#imagen_biografia{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#nav-home{
+	margin-top: 15px;
+}
+#nav-profile{
+	margin-top: 15px;
+}
+
+/* BIOGRAFIA FUNDADORA */
+#biografia_fundadora{
+	
+	text-align: justify;
+}
+
+/* BIOGRAFIA FUNDADORA */
+
+/* PRESENTACION DE LA UNIDAD EDUCATIVA*/
+#presentacion{
+	
+	text-align: justify;
+	margin: auto;
+}
+/* PRESENTACION DE LA UNIDAD EDUCATIVA*/
+
+/*  CALENDARIO ESTUDIANTES  */
+#calendario_tablas{
+	
+	display: block;
+	margin: 10px auto;
+	max-width: 900px;
+}
+#calendario_tablas .fila_titulo{
+	text-align: center;
+}
+/*  CALENDARIO ESTUDIANTES  */
+
+/* CONTENIDO DOCENTE */
+#contenido_docente{
+	
+	text-align: justify;
+}
+#contenido_docente img{
+	margin: auto;
+	display: block;
+	width: 100%;
+}
+#contenido_docente #imagen_contenido{
+	width: 65%;
+}
+/* CONTENIDO DOCENTE */
+
+/* INICIO */
+#texto-presentacion{
+	background-color: #e9ebef6b;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+#texto-presentacion h3{
+	text-align: center;
+}
+/* INICIO */
+
+/*BOTON CORREO INGRESO*/
+#accesoCorreo{
+	font-size: 25px;
+}
+
+
+/* ADMISIONES */
+#admisiones{
+	border:1px solid #e0dada;
+	margin: 10px auto;
+	padding: 40px;
+	border-radius: 10px;
+
+}
+#admisiones p.lead{
+	text-align: justify;
+}
+
+/* LUCHA CONTRA EL BULLYING*/
+#lucha_bullying{
+	
+
+}
+#lucha_bullying img{
+	display: block;
+	margin: auto;
+}
+.color_personalizado{
+	font-weight: bold;
+	color: rgb(88, 103, 221);
+}
+
+/* PARRAFOS CURSIVOS */
+
+#parrafo_cursivo{
+	font-style: italic ;
+}
+
+.color_sensibilizacion{
+	color: rgb(226, 191, 61);
+}
+
+.color_climatico{
+	color:rgb(19, 232, 51);
+}
+.pie_imagen{
+	text-align: center;
+}
+#pie_imagen{
+	text-align: center;
+}
+
+
+/*NAV*/
+.nav_personalizar{
+	padding: 5px;
+	font-size: 15px;
+}
+
+
+
+/* PIE DE PAGINA */
+/* ICONOS */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 58px;
+  text-align: center;
+  text-decoration: none;
+  margin: 12px 2px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+	color:white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}

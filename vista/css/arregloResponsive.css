@@ -1,0 +1,79 @@
+/* ARREGLO RESPONSIVE */
+
+.container_header .brand{
+	width: 100%;
+	padding-left: inherit;
+}
+
+.carousel-inner{
+	height: 190px;
+}
+
+.brand img{
+	margin: auto;
+}
+.menu_ingreso{
+	display: none;
+}
+.bg-light{
+	padding: 5px;
+}
+.navbar-toggler{
+	border-color: white;
+}
+.carousel-item{
+	height: 100%; 
+	vertical-align: middle;
+}
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.plantel_docente{
+	width: 100%;
+	height: inherit;
+	padding: 0px;
+
+}
+#columnas_docente{
+	display: inherit;
+}
+#componente_docente{
+	max-width: 100%;
+}
+.link_docente{
+	text-align: center;
+}
+.botones_columna_docente a{
+	border:1px solid gray;
+}
+#contenido_docente{
+	max-width: 100%;
+	margin-top: 15px;
+}
+.container_footer{
+	
+}
+.valores{
+	width: 100%;
+}
+
+
+.footer-menu{
+	padding: 0px;
+}
+.footer-menu iframe{
+	width: 100%;
+}
+
+#contenido_docente{
+	
+	width: 100%;
+	padding: 0px;
+	text-align: justify;
+}
+#contenido_docente img{
+	
+	width: 100%;
+}
